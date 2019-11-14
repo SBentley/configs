@@ -188,7 +188,7 @@ gaps outer 10
 for_window [class="^.*"] border pixel 2
 
 # Set wallpaper
-exec_always --no-startup-id feh --bg-fill ~/Pictures/yosemite-paint.png
+exec_always --no-startup-id feh --bg-fill ~/Pictures/Wallpaper.png
 # Set inverse/natural scrolling for touchpad
 exec --no-startup-id synclient NaturalScrolling=1 VertScrollDelta=-113
 # Launch Spotify
