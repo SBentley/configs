@@ -1,1 +1,1 @@
-# configs
+# Linux config files
