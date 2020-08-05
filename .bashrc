@@ -1,6 +1,11 @@
 alias la='ls -a'
 alias weather='curl wttr.in'
+alias src='cd ~/source'
+alias temps='watch sensors'
 
+git config --global alias.st status
+git config --global alias.ci commit
+git config --global alias.unstage 'reset HEAD --'
 #
 # ~/.extend.bashrc
 #
