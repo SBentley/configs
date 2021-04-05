@@ -7,6 +7,8 @@ alias plex='sudo service plexmediaserver start'
 git config --global alias.st status
 git config --global alias.ci commit
 git config --global alias.unstage 'reset HEAD --'
+
+export PATH=$PATH:/home/sam/.local/bin
 #
 # ~/.extend.bashrc
 #
