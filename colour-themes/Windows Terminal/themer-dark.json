@@ -1,0 +1,23 @@
+{
+  "name": "Themer Dark",
+  "background": "#161c1f",
+  "foreground": "#b5b5b6",
+  "cursorColor": "#e6a3dc",
+  "selectionBackground": "#ccaced",
+  "black": "#4b4f51",
+  "brightBlack": "#65696a",
+  "red": "#efa6a2",
+  "brightRed": "#E9AEAB",
+  "green": "#5accaf",
+  "brightGreen": "#71CDB5",
+  "yellow": "#e0af85",
+  "brightYellow": "#DDB594",
+  "blue": "#ccaced",
+  "brightBlue": "#CDB3E7",
+  "purple": "#e6a3dc",
+  "brightPurple": "#E1ACD9",
+  "cyan": "#74c3e4",
+  "brightCyan": "#86C5E0",
+  "white": "#b5b5b6",
+  "brightWhite": "#cfcfcf"
+}
