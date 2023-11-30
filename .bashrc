@@ -3,6 +3,8 @@ alias weather='curl wttr.in'
 alias src='cd ~/source'
 alias temps='watch sensors'
 alias plex='sudo service plexmediaserver start'
+alias fb='~/fuzzy-bat.sh'
+alias fv='~/fuzzy-lvim.sh'
 
 git config --global alias.st status
 git config --global alias.ci commit
