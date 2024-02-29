@@ -9,7 +9,8 @@ alias fv='~/fuzzy-lvim.sh'
 git config --global alias.st status
 git config --global alias.ci commit
 git config --global alias.unstage 'reset HEAD --'
-
+export VISUAL=lvim
+export EDITOR="$VISUAL"
 export PATH=$PATH:/home/sam/.local/bin
 #
 # ~/.extend.bashrc
@@ -123,4 +124,6 @@ ex ()
 
 # better yaourt colors
 export YAOURT_COLORS="nb=1:pkg=1:ver=1;32:lver=1;45:installed=1;42:grp=1;34:od=1;41;5:votes=1;44:dsc=0:other=1;35"
-
+# Save history for all terminals
+shopt -s histappend
+PROMPT_COMMAND="history -a;$PROMPT_COMMAND"
